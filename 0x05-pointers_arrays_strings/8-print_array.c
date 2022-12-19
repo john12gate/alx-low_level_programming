@@ -1,28 +1,23 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * _atoi - convert a string to an integer.
- * @s: the string to be converted.
+ * print_array - unction that prints n elements of an array of integers
  *
- * Return: The integer value of the converted string.
+ * @a: pointer to first int
+ * @n: pointer to second int
+ * Return: nothing
  */
 
-int _atoi(char *s)
+void print_array(int *a, int n)
 {
-	int sign = 1;
-	unsigned int num = 0;
+int i = 0;
 
-	do {
-
-		if (*s == '-')
-			sign *= -1;
-
-		else if (*s >= '0' && *s <= '9')
-			num = (num * 10) + (*s - '0');
-
-		else if (num > 0)
-			break;
-	} while (*s++);
-
-	return (num * sign);
+for (i = 0; i < n; i++)
+{
+	printf("%d", a[i]);
+	if (i < n - 1)
+		printf(", ");
+}
+printf("\n");
 }
