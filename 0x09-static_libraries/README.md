@@ -1,6 +1,8 @@
-# ALX README TEMPLATE
-This is a ready made template which can be used for your README.md task in ALX. All you need to do is some minor editing and don't forget to remove the notes and paragraph where stated  
-**Read Me:** _Don't forget to give this repository a star if you find it useful and also come back to check for updates_
+# ALX 0x09. C - Static libraries
+
+A static library in the C programming language is a built object file that contains all symbols necessary for the main program to execute (functions, variables, etc.) rather than needing to pull in individual entities. The compiler does not load static libraries at run-time; just the executable file is required. 
+
+**Read Me:** 🙏 _Don't forget to give this repository a star if you find it useful and also come back to check for updates_
 
 ## Table of Content
 
