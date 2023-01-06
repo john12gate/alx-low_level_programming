@@ -2,7 +2,7 @@
 
 A static library in the C programming language is a built object file that contains all symbols necessary for the main program to execute (functions, variables, etc.) rather than needing to pull in individual entities. The compiler does not load static libraries at run-time; just the executable file is required. 
 
-**Read Me:** 🙏 _Don't forget to give <em color="red"><u><bgcolorthis repository</span></u></em> a star if you find it useful and also come back to check for updates_
+**Read Me:** 🙏 _Don't forget to give <em><u>this repository</u></em> a star if you find it useful and also come back to check for updates_
 
 ## Table of Content
 
