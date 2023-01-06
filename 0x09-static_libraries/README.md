@@ -1,11 +1,14 @@
 # ALX - 0x09. C - Static libraries
 
+1) You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+2) You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+3) You are not allowed to publish any content of this project.
+4) Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
 # What is Static libraries
 
 A static library in the C programming language is a built object file that contains all symbols necessary for the main program to execute (functions, variables, etc.) rather than needing to pull in individual entities. The compiler does not load static libraries at run-time; just the executable file is required.
 
-**Note: Delete this note and the paragraph above after**  
-**Important note: escape special characters like * and _ so that it doesn't affect the whole document. You will find examples where it was done if you go through the document. Delete this note after.**
 
 ## Table of contents
 
